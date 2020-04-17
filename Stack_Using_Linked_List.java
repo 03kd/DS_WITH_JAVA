@@ -28,7 +28,7 @@ class operations{
         }
         System.out.println("Removing "+peek());
         // update the next
-        top =(top).next;
+        top =top.next;
     }
 
     public boolean isEmpty(){
@@ -73,6 +73,7 @@ class Mymain{
         obj.push(3);
         obj.pop();
         obj.push(4);
+        obj.pop();
         obj.display();
         if(obj.isEmpty()){
             System.out.println("Stack is empty");
